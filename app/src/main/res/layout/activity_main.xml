@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.classno_08_dialogs.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AlertDialog"
+        android:textSize="@dimen/TextSize_20"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:onClick="onAlertDialog"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DialogWithList"
+        android:textSize="@dimen/TextSize_20"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:onClick="onDialogWithList"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Persistent_Single"
+        android:textSize="@dimen/TextSize_20"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:onClick="onPersistent_Single"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Persistent_Multiple"
+        android:textSize="@dimen/TextSize_20"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:onClick="onPersistent_Multiple"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CustomDialog"
+        android:textSize="@dimen/TextSize_20"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:onClick="onCustomDialog"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/TextSize_20"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Blue"/>
+
+</LinearLayout>

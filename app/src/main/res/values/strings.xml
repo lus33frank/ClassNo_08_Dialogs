@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">No:08_Dialogs</string>
+    <!-- 畫面 -->
+    <string name="AlertDialog">Alert Dialog</string>
+    <string name="DialogWithList">Dialog With List</string>
+    <string name="Persistent_Single">Persistent_Single</string>
+    <string name="Persistent_Multiple">Persistent_Multiple</string>
+    <string name="CustomDialog">Custom Dialog</string>
+
+    <!-- Alert Dialog -->
+    <string name="Alert_Title">標題</string>
+    <string name="Alert_Message">訊息內容</string>
+    <string name="Alert_Positive">正向位置按鈕</string>
+    <string name="Alert_Neutral">中性位置按鈕</string>
+    <string name="Alert_Negative">負向位置按鈕</string>
+    <string name="Alert_OnClick_Message">您按下的是：</string>
+
+    <!-- Dialog With List -->
+    <string name="WithList_Title">選擇顏色</string>
+    <string name="WithList_Red">紅色</string>
+    <string name="WithList_Green">綠色</string>
+    <string name="WithList_Blue">藍色</string>
+    <string name="WithList_OnClick_Message">您選擇的顏色是：</string>
+    <string-array name="WithList_Color">
+        <item>紅色</item>
+        <item>綠色</item>
+        <item>藍色</item>
+    </string-array>
+
+    <!-- Persistent_Single -->
+    <string name="Single_Title">選擇星期（單選）</string>
+
+    <!-- Persistent_Multiple -->
+    <string name="Multiple_Title">選擇星期（多選）</string>
+
+    <!-- Custom Dialog -->
+    <string name="Custom_Title">自訂畫面標題</string>
+    <string name="Account">帳號：</string>
+    <string name="PassWord">密碼</string>
+
+    <!-- 共用 -->
+    <string name="Select_OnClick_Message">您選擇的星期是：</string>
+    <string name="btn_OK">OK</string>
+    <string name="btn_CANCEL">CANCEL</string>
+    <string name="Sunday">星期日</string>
+    <string name="Monday">星期一</string>
+    <string name="Tuesday">星期二</string>
+    <string name="Wednesday">星期三</string>
+    <string name="Thursday">星期四</string>
+    <string name="Friday">星期五</string>
+    <string name="Saturday">星期六</string>
+
+    <string-array name="Weeks">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+</resources>
